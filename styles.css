@@ -41,7 +41,6 @@ button {
     font-size: 16px;
     cursor: pointer;
     width: 100%;
-    box-sizing: border-box;
     transition: background-color 0.3s ease;
 }
 
@@ -52,6 +51,8 @@ button:hover {
 #form-feedback {
     margin-top: 10px;
     padding: 10px;
+    color: #d8000c;
+    background-color: #ffbaba;
     border-radius: 4px;
     display: none;
 }
